@@ -10,9 +10,10 @@ body{
 	height:570px;    
 	background: rgb(0,0,0);
 	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(169, 4, 169) 0%, rgb(229, 14, 240) 100%);
-	border: 1px solid #100606;
-	border-radius: 25px;
-	box-shadow: #0b0a0a 2px 2px 0.5px 0.2px;
+	border: 1px solid #100606; 
+	/* border-radius: 25px; */
+	/* box-shadow: #0b0a0a 2px 2px 0.5px 0.2px; */
+    overflow:scroll; 
 }
 h1{
     text-align: center;
