@@ -1,25 +1,27 @@
 body{
-    background: rgb(72,64,222);
-    background: linear-gradient(90deg, rgba(72,64,222,1) 4%, rgba(145,55,240,1) 54%);
+    background-image: url(todo.jpg);background-attachment: fixed;
+	background-repeat: no-repeat;height: 100%;width:100%;background-size: cover; 
     }
 
 #head{
 	margin: 60px auto;
 	padding: 60px;    
-	width: 250px;
+	width: 350px;
 	height:570px;    
-	background: rgb(0,0,0);
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(169, 4, 169) 0%, rgb(229, 14, 240) 100%);
+	background: rgb(242, 130, 214);
+	/* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(169, 4, 169) 0%, rgb(229, 14, 240) 100%); */
 	border: 1px solid #100606; 
 	/* border-radius: 25px; */
 	/* box-shadow: #0b0a0a 2px 2px 0.5px 0.2px; */
     overflow:scroll; 
+    color:rgb(13, 2, 2);
+    align-items: center;
 }
 h1{
     text-align: center;
 }
 input{
-    width:250px;
+    width:320px;
     height: 30px;
     border-radius: 10px;
     font-size: 20px;
@@ -30,7 +32,7 @@ button{
     text-align: center;
     justify-content: space-around;
     padding-top: 5px;
-    width:80px;
+    width:100px;
     height: 30px;
     border-radius: 10px;
     font-weight: bold;
